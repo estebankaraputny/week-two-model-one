@@ -1,0 +1,115 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+/* Comienza barra de navegacion */
+ /* .barraNavegacion { } */
+ 
+
+ .barraNavegacion-h1{
+    font-size:45px;
+    position: absolute;
+    display: flex;
+    left:80px;
+ }
+
+ .barraNavegacion-logo{
+    width: 100px;
+    height: 100px;
+    position:absolute;
+    top:180px;
+    right:200px;
+ }
+
+ .barraNavegacion-portada{
+    text-align: center;
+ }
+
+ .barraNavegacion-portada-image{
+    width: 90vw;
+    height: 30vh;
+    /* text-align:center; */
+    /* margin: 0 100px; */
+ }
+
+ .barraNavegacion-links{
+    display: flex;
+    padding:100px;
+ }
+
+ .barraNavegacion-links > ul {
+    display: flex;
+    list-style-type: none;
+ }
+ 
+ /* .barraNavegacion-links > ul > li{ }*/
+    
+ 
+
+ .barraNavegacion-links > ul > li > a{
+    text-decoration: none;
+ }
+
+ .section-one{
+    display:flex;
+    justify-content:center;
+ }
+ .section-one > h2 {
+
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    background-color: black;
+    width:90%;
+ }
+
+
+ .section{
+    display:flex;
+    flex-direction: row;
+    margin-top: 50px;
+ }
+
+ .section > .section-links {
+    flex-direction: column;
+    display: flex;
+    width: 250px;
+ }
+
+ .section > .section-links > ul {
+    list-style-type: none;
+    
+ }
+ .section > .section-links > ul > li {
+    height: 80px;
+    padding-left:100px;
+ }
+  .section > .section-links > ul > .section-links-home > a {
+    text-decoration: none;
+    color: black;
+  }
+
+ .section-info {
+    display:flex;
+    flex-direction:column;
+    height: 200px;
+    justify-content: space-between;
+ }
+
+.section-info > div {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+ .section-info > div > p{
+    text-indent: 20px;
+ }
+
+ /* COMIENZA PAGINA ABOUT */
+
+/* PORTADA Y LOGO TOMA EL CODIGO DE LA PAGINA ANTERIOR */
