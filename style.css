@@ -31,6 +31,8 @@
  .barraNavegacion-portada-image{
    width: 90vw;
    height: 30vh;
+   object-fit: cover;
+   object-position: 0 80%;
  }
 
  .barraNavegacion-links{
